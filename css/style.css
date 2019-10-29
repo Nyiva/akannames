@@ -84,11 +84,6 @@ body{
         color: rgb(99, 187, 27);
     
     }
-    .form-style-4 label {
-        display:block;
-        margin-left: 10px;
-        grid-column: 1 / 2;
-    }
     .form-style-4 label > span{
         display: inline-block;
         float: left;

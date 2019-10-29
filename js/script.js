@@ -8,7 +8,6 @@ function akan() {
   //let century=parseInt(document.getElementsByName(century));
   var male = document.getElementById("male").value;
   var female = document.getElementById("female").value;
-
   var gdate = new Date(year + "/" + month + "/"+ day);
   var b = gdate.getDay();
   console.log(b)

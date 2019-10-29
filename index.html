@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Your Birthday </title>
+    <title>Your Birthday form</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap"
       rel="stylesheet"
     />
-    
+    <style>
+      input[type="button"],
+      input[type="submit"],
+      input[type="reset"] {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
         <script src="js/script.js"></script>
     <div class="wrapper">
       <div>
-        <h1>Akan naming</h1>
+        <h1>Akan names</h1>
         <h2>
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK6_WtbcwYaOZaLT9CC3qmR4lpksG5PQN3hMhBH51PWlzKcF0B&s"
@@ -27,13 +39,14 @@
         <p>
           Akan names are derived from Ghanian culture. Frequently in Ghana,
           children are given their first name as a 'day name' which corresponds
-          to the day in the week they were born. Here are Ghanian day names.</p>
+          to the day in the week they were born. Here are Ghanian day names.
+        </p>
       </div>
-      <div class="img demon"></div>
+      <div class="img-wolf"></div>
     </div>
     <div>
       <!-- <form>   -->
-      <p>!!Please fill the required down Here</p>
+      <p>!!Please fill the required below</p>
       <span> Key in day of Birth </span><br />
       <input type="number" id="day" /><br />
       <span>Key in Month of birth</span><br />
@@ -43,12 +56,12 @@
 
       <div class="styled-select slate">
         <div>
-          <p>Select Masculine</p>
+          <p>Select Gender</p>
           <br />
         </div>
         <Select>
-          <option name="gender" value="male" id="male">Male</option><br/>
-          <option name="gender" value="female" id="female">Female</option><br/>
+          <option name="gender" value="male" id="male">Male</option>
+          <option name="gender" value="female" id="female">Female</option>
         </Select>
       </div>
 

@@ -10,8 +10,8 @@ Body{background-size: cover;
 }
 
 {
-    margin:22;
-    padding:33;
+    margin:0;
+    padding:0;
 }
 /* wrapper{
     margin: 0 auto;
@@ -43,8 +43,22 @@ body{
         padding: 30px 30px 15px 30px;
         border: 5px solid #53687E;
     
+       
         <style>
-input[type="submit"]{
+
+        style>
+        input[type="button"],
+        input[type="submit"],
+        input[type="reset"] {
+          background-color: #4caf50;
+          border: none;
+          color: white;
+          padding: 16px 32px;
+          text-decoration: none;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+      </style>        input[type="submit"]{
     
     background-color: #555;
     color: #fff;

@@ -10,6 +10,7 @@ This is a project for generating ghanian names when the user inputs the day,mont
 ![Screenshot](Capture.PNG)
 ![Screenshot](screenshot.PNG)
 ## Deployment
+https://github.com/Nyiva/akannames.git the link on github
 ## Compatibility
 all browsers  can access it 
 ## Bugs

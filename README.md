@@ -19,3 +19,5 @@ Java script and html has few bugs
 - Html
 - css 
 - JS
+## contacts
+ Iancharawe94@gmail.com

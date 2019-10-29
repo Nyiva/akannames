@@ -11,7 +11,7 @@ This is a project for generating ghanian names when the user inputs the day,mont
 ![Screenshot](screenshot.PNG)
 ## Deployment
 ## Compatibility
-compatible with all browswers
+all browsers  can access it 
 ## Bugs
 Java script and html has few bugs
 ## Techonologies used
